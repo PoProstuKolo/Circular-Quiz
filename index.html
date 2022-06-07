@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❔Quiz App❔</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form class="quiz">
+        <h1 class="title-quiz">🟢Circular Quiz🟢</h1>
+        <div class="image">
+            <img src="https://a.allegroimg.com/original/11c909/ec4e4fd149b49230a55d098b5140" class="img-quiz">
+            <div class="imgSource">
+                <p><strong>SOURCE:</strong>
+                    <a href="https://allegro.pl/ogloszenie/bmw-m3-competition-g80-510km-m-race-track-unikat-12009535066">https://allegro.pl/ogloszenie/bmw-m3-competition-g80-510km-m-race-track-unikat-12009535066</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="question-box-quiz top-quiz">
+            <h3 class="question-quiz"> Samochód na zdjęciu to?</h3>
+
+            <input type="radio" name="question-one" id="answer-one" class="answer" value="true">
+            <label for="answer-one"> BMW M3 Competition</label>
+
+            <input type="radio" name="question-one" id="answer-two" class="answer" value="false">
+            <label for="answer-two"> BMW E36</label>
+
+            <input type="radio" name="question-one" id="answer-three" class="answer" value="false">
+            <label for="answer-three"> BMW X5 M</label>
+
+        </div>
+
+
+        <div class="question-box-quiz">
+            <h3 class="question-quiz"> Ile ma koni?</h3>
+
+            <input type="radio" name="question-two" id="answer-four" class="answer" value="false">
+            <label for="answer-four"> 420 km</label>
+
+            <input type="radio" name="question-two" id="answer-five" class="answer" value="false">
+            <label for="answer-five"> 660 km</label>
+
+            <input type="radio" name="question-two" id="answer-six" class="answer" value="true">
+            <label for="answer-six"> 510 km</label>
+
+        </div>
+
+
+        <div class="question-box-quiz">
+            <h3 class="question-quiz"> Jaki ma napęd?</h3>
+
+            <input type="radio" name="question-three" id="answer-seven" class="answer" value="false">
+            <label for="answer-seven"> 4x4</label>
+
+            <input type="radio" name="question-three" id="answer-eight" class="answer" value="true">
+            <label for="answer-eight"> RWD</label>
+
+            <input type="radio" name="question-three" id="answer-nine" class="answer" value="false">
+            <label for="answer-nine"> FWD</label>
+
+        </div>
+
+
+        <div class="question-box-quiz">
+            <h3 class="question-quiz"> Jakie ma nadwozie?</h3>
+
+            <input type="radio" name="question-four" id="answer-ten" class="answer" value="false">
+            <label for="answer-ten"> Coupe</label>
+
+            <input type="radio" name="question-four" id="answer-eleven" class="answer" value="true">
+            <label for="answer-eleven"> Sedan</label>
+
+            <input type="radio" name="question-four" id="answer-twelve" class="twelve" value="false">
+            <label for="answer-twelve"> Compact</label>
+
+        </div>
+
+        <button class="check" type="submit">Sprawdź</button>
+
+    </form>
+    <div class="modal-info">
+        <p> </p>
+        <button class="close">X</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
